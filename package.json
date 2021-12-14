@@ -1,10 +1,17 @@
 {
-  "name": "Node.js CORS Proxy",
-  "description": "",
+  "name": "hate-cors",
+  "description": "Node.js CORS Proxy",
   "version": "0.1.0",
   "private": false,
-  "author": "",
+  "main": "./src/server.js",
+  "author": "Zeb Anwar",
   "dependencies": {
     "cors-anywhere": "^0.4.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
